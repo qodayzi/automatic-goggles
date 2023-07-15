@@ -1,0 +1,321 @@
+/* Colors
+#19191B  -> background color
+#F04037  -> red color
+#FFFFFF  -> white color
+#5454D4  -> "New Feature Added! button" color
+#979797 -> "everything is easy section" background color
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#19191B  ;
+}
+/* nav bar */
+.nav-bar{
+    max-width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#logo{
+    font-size: 25px;
+    margin-left:10%;
+    font-weight: bold;
+}
+.erayada{
+    max-width: 30%;
+    position: relative;
+    left: 65px;
+
+}
+li{
+    list-style: none;
+    float: left;
+    padding-left: 35px;
+}
+.demo{
+    color: #F04037 ;
+}
+.get-box{
+    margin-right: 10%;
+    background-color:#F04037 ;
+    padding: 12px 18px 12px 18px ;
+    border-radius:5px ;
+    font-size: 6px;
+}
+
+/* qaybta 2aad */
+
+.qayb-2{
+    padding: 45px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.text-1{
+    padding-left: 75px;
+    padding-bottom: 55px;
+    color: white;
+    margin-right: 200px;
+
+}
+.text-1 h1{
+    padding-bottom: 20px;
+    font-size: 60px;   
+
+}
+.text-1 h4{
+    padding-top: 5px;
+}
+.image img{
+    max-width: 490px;
+}
+ /* qaybta sadexad */
+
+.qaybta-3 {
+    color: white;
+    text-align: center;
+}
+.qaybta-3 h1 {
+    padding-bottom: 10px;
+}
+.qaybta-3 p {
+    padding-bottom: 60px;
+}
+.image-2 img{
+      border-radius: 9px;
+}
+
+/* icons */
+.icons {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 56px;
+}
+.icon-1{
+    padding-bottom: 65px;
+}
+.icon-1 h3 {
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+/* qaybta-5 */
+.qaybta-5{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    border-top: 2px solid #272727 ;
+    gap: 10px;
+}
+.image-3 img{
+    max-width: 420px;
+    min-height: 420px;
+    border-radius: 50%;
+}
+.qoral{
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.qoral-1 h5 {
+    width: 150px;
+    padding: 5px 15px 5px 15px ;
+    margin-bottom: 25px;
+    background-color:#5454D4  ;
+    border-radius: 3px;
+}
+.qoral h1{
+    margin-bottom: 15px;
+    font-size: 48px;
+}
+
+
+
+/* qaybta-6 */
+
+.qaybta-6{
+    background-color: #272727;
+    color: white;
+}
+
+.koral {
+    text-align: center;
+}
+.koral h1{
+    padding: 45px 12px 25px 12px ;
+    font-size: 40px;
+}
+.koral p{
+    padding: 0px 0px 55px 0px ;
+}
+
+
+
+.image-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ; 
+    width: 680px;
+    margin-left: 280px;
+    padding-bottom: 75px;
+    gap: 30px;
+}
+.image-4 .img-1 {
+    border-radius: 5px;
+    max-width: 260px;
+}
+.image-4 .img-2{
+    border-radius: 5px;
+    height: 380px;
+}
+
+
+/* qaybta 6-1 */
+
+
+.qaybta-6-1 {
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.koral-1 h1 {
+    font-size: 40px;
+    padding-bottom:33px ;
+}
+.koral-1 p{
+    padding-bottom: 33px;
+}
+
+.koral-1 .get-box-2 {
+    max-width: 100px;
+    background-color:#F04037 ;
+    padding: 12px 8px 12px 18px ;
+    border-radius:5px ;
+    font-size: 10px;
+
+}
+
+.image-5 img{
+    max-width: 350px;
+    min-height: 350px;
+    border-radius: 50%;
+}
+
+/* qaybta-7 */
+
+.qaybta-7{
+    color: white;
+
+}
+.koral-2{
+    text-align: center;
+}
+.koral-2 h1{
+    padding-top: 40px;
+    font-size: 40px;
+}
+.koral-2 p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.koral-guud {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.koral-3 h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.koral-3 p {
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+.last p{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.last span{
+    color: #F04037;
+
+}
+
+/* qaybta-8 */
+
+.qaybta-8{
+    max-width: 100%;
+    color: white;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    gap: 190px;
+}
+.get-box-3 {
+    max-width: 140px;
+    min-height: 40px;
+    margin-right: 10%;
+    background-color:#F04037 ;
+    padding: 12px 8px 12px 18px ;
+    border-radius:5px ;
+    font-size: 10px;
+    position: relative;
+    left: 120px;
+}
+.qaybta-8 h1{
+    font-size: 50px;
+
+}
+/* qaybt-9 */
+.down {
+    max-width: 100%;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+#logo{
+    font-size: 25px;
+    margin-left:10%;
+    font-weight: bold;
+}
+.erayada{
+    max-width: 30%;
+    position: relative;
+    left: 40px;
+
+}
+li{
+    list-style: none;
+    float: left;
+    padding-left: 35px;
+}
+.down h2{
+    font-size:15px ;
+    position: relative;
+    left: -170px;
+}
